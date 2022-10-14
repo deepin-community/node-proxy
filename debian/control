@@ -1,0 +1,27 @@
+Source: node-proxy
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+ , node-basic-auth-parser <!nocheck>
+ , node-debug (>= 4.1.1) <!nocheck>
+ , nodejs
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-proxy
+Vcs-Git: https://salsa.debian.org/js-team/node-proxy.git
+Homepage: https://github.com/TooTallNate/proxy#readme
+Rules-Requires-Root: no
+
+Package: node-proxy
+Architecture: all
+Depends: ${misc:Depends}
+ , node-basic-auth-parser
+ , node-debug (>= 4.1.1)
+ , nodejs
+Description: HTTP proxy written with Node.js
+ This module provides standard HTTP proxy logic. Servers can be scripted
+ using the proxy server API.

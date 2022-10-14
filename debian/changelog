@@ -1,0 +1,42 @@
+node-proxy (1.0.2-5) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 15 Sep 2021 11:11:38 +0100
+
+node-proxy (1.0.2-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 28 Aug 2021 23:27:16 +0100
+
+node-proxy (1.0.2-3) unstable; urgency=medium
+
+  [ Xavier Guimard ]
+  * Add debian/gbp.conf
+  * Use dh-sequence-nodejs
+  * Drop unneeded version constraints from (build) dependencies
+
+  [ Chris Lamb ]
+  * Make build reproducible (Closes: #972631)
+
+  [ Andrius Merkys ]
+  * Adding missing dependency on nodejs.
+
+ -- Andrius Merkys <merkys@debian.org>  Thu, 22 Oct 2020 00:48:00 -0400
+
+node-proxy (1.0.2-2) unstable; urgency=medium
+
+  * No-changes source upload.
+
+ -- Andrius Merkys <merkys@debian.org>  Tue, 20 Oct 2020 00:52:57 -0400
+
+node-proxy (1.0.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #969071)
+
+ -- Andrius Merkys <merkys@debian.org>  Thu, 27 Aug 2020 02:55:29 -0400
